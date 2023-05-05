@@ -1,0 +1,49 @@
+.foot {
+  margin: 4px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.myLink {
+  position: absolute;
+  font-size: 22px;
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px;
+}
+.myLink:hover {
+  /* position: absolute; */
+
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.162);
+  display: block;
+  color: white;
+  border-radius: 3px;
+  padding-right: 10px;
+}
+.myLastLink {
+  display: flex;
+  justify-content: flex-end;
+}
+.routes {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: left;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.routes:hover {
+  color: white;
+  text-decoration: none;
+  background-color: blueviolet;
+}
+.describeRoute {
+  color: rgba(255, 255, 255, 0.59);
+  font-size: 12px;
+}

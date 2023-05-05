@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  height: 100%;
+}
+#H1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+}
+.form-sign-up {
+  border: 1px solid rgba(0, 0, 0, 0.166);
+  border-radius: 7px;
+  box-shadow: 10px 12px 200px rgba(16, 15, 15, 0.213);;
+  padding: 30px;
+  width: 400px;
+  height: 500px;
+  margin: auto; 
+  font-weight: bold;
+}
+input {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.gif-image-register {
+  width: 600px;
+}
+.image-container-register {
+  margin-top: 355px;
+  position: absolute;
+  right: 0;
+}

@@ -1,0 +1,39 @@
+tr,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+td {
+  font-size: 15px;
+}
+
+#display {
+  margin: 40px;
+  margin-bottom: 80px;
+}
+
+h1 {
+  text-align: center;
+}
+.selectUserName {
+  font-size: 28px;
+  margin: 8px;
+}
+.papa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  
+}
+
+.graph{
+  margin: 50px 500px;
+  border: 1px solid rgba(130, 125, 125, 0.365);
+  border-radius: 5px;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+}

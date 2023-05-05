@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+  padding: 4px;
+}
+.bnch-logo-header {
+  width: 200px;
+  margin-left: 250px;
+  margin-top:2px;
+}
+#sign-up-header {
+  height: 40px;
+  margin: 12px;
+  margin-right: 50px;
+}
+.form {
+  display: flex;
+  margin-right: 1040px;
+}
+.about-bnch-div {
+  margin-left: 240px;
+  margin-top: 100px;
+}
+.about-bnch-paragraph {
+  font-size: 57px;
+  margin-left: 14px;
+  font-weight: bold;
+}
+.about-bnch-paragraph2 {
+  font-size: 31.7px;
+  margin-left: 14px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin-left: 14px;
+  float: left;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+    margin-left: 14px;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+input {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+#sign-in-button {
+  color: aliceblue;
+}
+.new-to-bnch {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.gif-image {
+  width: 880px;
+}
+.image-container {
+    position: absolute;
+    right: 0;}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
