@@ -4,3 +4,8 @@ h3{
     font-size: 57px;
     font-weight: bold;
 }
+.button-link{
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+}

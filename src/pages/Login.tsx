@@ -1,7 +1,6 @@
 import axios from "axios";
 import { SyntheticEvent, useState ,useEffect} from "react";
 import { Link, Navigate } from "react-router-dom";
-import Loading from "./Loading";
 import "./Login.css";
 
 
@@ -29,20 +28,12 @@ const Login = () => {
 
       <header>
         <Link to={"/login"}>
-          <img
-            className="bnch-logo-header"
-            src={require("../components/images/logo4.png")}
-            alt=""
-          />
+
         </Link>
         <Link id="sign-up-header" className="btn btn-dark" to={"/register"}>
           SIGN UP
         </Link>
       </header>
-      <div className="about-bnch-div">
-        <p className="about-bnch-paragraph"> People intelligence platform.</p>
-        <p className="about-bnch-paragraph2">Optimize your workforce with benchmarking insights</p>
-      </div>
       <div className="form">
       <main className="form-signin w-100 m-auto">
           <form onSubmit={submit}>
@@ -87,14 +78,12 @@ const Login = () => {
             </button>
             <p className="new-to-bnch">
               <Link style={{ color: "black" }} to={"/register"}>
-                New to Bnch? Sign up!
+                New to **** ? Sign up!
               </Link>
             </p>
           </form>
         </main>
-        <div className="image-container">
-          <img className="gif-image" src={require("../components/images/gif8.gif")} alt="" />
-        </div>
+
       </div>
     </>
   );

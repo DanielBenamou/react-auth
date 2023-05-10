@@ -30,11 +30,7 @@ export const Register2 = () => {
     <>
       <header>
         <Link to={"/login"}>
-          <img
-            className="bnch-logo-header"
-            src={require("../components/images/logo4.png")}
-            alt=""
-          />
+
         </Link>
         <Link id="sign-up-header" className="btn btn-dark" to={"/login"}>
           SIGN IN
@@ -44,7 +40,7 @@ export const Register2 = () => {
       <div className="container">
         <form onSubmit={submit} className="form-sign-up">
           <h1 id="H1" className="h3 font-weight-normal">
-            One step registration
+ registration
           </h1>
 
           <input
